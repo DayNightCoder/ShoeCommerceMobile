@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sachinpc.restshoecommerce.Main2Activity">
+
+
+    <item
+        android:title="@string/search"
+        android:orderInCategory="1"
+        android:id="@+id/action_search" />
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="3"
+        android:title="@string/action_Update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ViewCart"
+        android:orderInCategory="4"
+        android:title="@string/action_SeeCart"
+        app:showAsAction="never" />
+    <item android:title="@string/contactStore"
+        android:orderInCategory="5"
+        android:id="@+id/action_contact" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="6"
+        android:title="@string/action_LogOut"
+        app:showAsAction="never" ></item>
+
+</menu>
